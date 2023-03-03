@@ -1,11 +1,5 @@
-pipeline {
-agent any
 
-  stages {
-    stage('compile and package code') {
-      steps {
-        sh 'mvn clean package'
-      }
-    }
-  }
-}
+@Library('roboshop-jenkins-shared-library') _
+
+env.COMPONENT="shipping"
+maven()
