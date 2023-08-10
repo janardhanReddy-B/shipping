@@ -1,5 +1,5 @@
 component: shipping
-appVersion: 2.0.0
+appVersion: 2.0.1
 
 service:
   type: ClusterIP
