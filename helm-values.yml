@@ -1,0 +1,14 @@
+component: shipping
+appVersion: 2.0.0
+
+service:
+  type: ClusterIP
+  targetPort: 8080
+
+initcontainer: true
+
+resources:
+  memory: "2048Mi"
+  cpu: "1000m"
+
+
